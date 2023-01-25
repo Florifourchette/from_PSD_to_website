@@ -67,7 +67,7 @@ table {
     color: rgba(255,255,255,255) ;
 }
 .t-title h3{
-    font-size: 1em;
+    font-size: .8em;
     padding-bottom: .25em;
     font-family: 'Playfair Display', serif;
     color: rgba(255,255,255,255)
@@ -108,7 +108,7 @@ table {
 }
 .t-cards p{
     font-size: 0.87em;
-    padding-bottom: 1em;
+    padding-bottom: .8em;
     font-family: 'Roboto', sans-serif;
     font-weight:300;
     color: rgba(250,250,250,255);
