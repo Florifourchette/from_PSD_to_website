@@ -107,6 +107,7 @@ header {
 
 .nav_items li a:hover {
 	color: #68dacd;
+}
 
 .watch{
 	width: 1600px;
@@ -128,4 +129,13 @@ header {
 	position:relative;
 	top: 40%;
 	left: 44%;
+}
+
+.e_grid_container{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.e_grid_item{
+	width: 50px;
 }
