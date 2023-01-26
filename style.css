@@ -47,3 +47,25 @@ table {
 *{
     font-size: 16px;
 }
+
+.watch{
+	width: 1600px;
+	height: 550px;
+}
+
+.w_background{
+	position:absolute;
+}
+
+.w_play{
+	position:relative;
+	top: 35%;
+	left: 45%;
+}
+
+.watch p{
+	color: white;
+	position:relative;
+	top: 40%;
+	left: 44%;
+}
