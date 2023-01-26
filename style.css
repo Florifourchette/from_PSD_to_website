@@ -48,12 +48,12 @@ table {
     font-size: 16px;
 }
 .t-team-section{
-    width: 100%;
-    background-image: url(photoshop_file/photoshop/design-assets/bgk-header.png);
+    background-image: url('photoshop_file/photoshop/design-assets/bgk-header.png');
     object-fit: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 .t-title{
     text-align: center;
