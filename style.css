@@ -94,8 +94,6 @@ header {
 	display: flex;
 	justify-content: end;
 }
-
-
 .nav_items li a {
 	color: white;
 	text-decoration: none;
@@ -104,10 +102,9 @@ header {
 	font-size: 0.8em;
 	margin-right: 3em;
 }
-
 .nav_items li a:hover {
 	color: #68dacd;
-
+}
 .watch{
 	width: 1600px;
 	height: 550px;
@@ -122,14 +119,13 @@ header {
 	top: 35%;
 	left: 45%;
 }
-
 .watch p{
 	color: white;
 	position:relative;
 	top: 40%;
 	left: 44%;
-  
- .t-team-section{
+}
+.t-team-section{
     background-image: url('photoshop_file/photoshop/design-assets/bgk-header.png');
     object-fit: cover;
     background-repeat: no-repeat;
