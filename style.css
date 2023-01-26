@@ -48,7 +48,6 @@ table {
     font-size: 16px;
 }
 
-
 header {
 	background-image: url('material/bgk-header.png');
 	background-size: cover;
@@ -90,8 +89,6 @@ header {
 	
 }
 
-
-
 .nav_items {
 	list-style: none;
 	display: flex;
@@ -110,4 +107,25 @@ header {
 
 .nav_items li a:hover {
 	color: #68dacd;
+
+.watch{
+	width: 1600px;
+	height: 550px;
+}
+
+.w_background{
+	position:absolute;
+}
+
+.w_play{
+	position:relative;
+	top: 35%;
+	left: 45%;
+}
+
+.watch p{
+	color: white;
+	position:relative;
+	top: 40%;
+	left: 44%;
 }
