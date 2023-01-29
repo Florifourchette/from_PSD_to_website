@@ -111,7 +111,6 @@ header {
 	width: 100%;
 	height: 550px;
 }
-
 .w_play{
 	position:relative;
 	top: 35%;
@@ -178,7 +177,7 @@ header {
 	height: 1px;
 	background-color: rgba(65,61,75,255);
 	width: 3%;
-=======
+}
 .w_triangle {
 }
 
@@ -195,6 +194,7 @@ header {
     background-attachment: fixed;
     background-position: center;
     background-size: 100% 100%;
+    width: 100%;
 }
 .t-title{
     text-align: center;
