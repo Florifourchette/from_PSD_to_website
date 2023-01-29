@@ -94,8 +94,6 @@ header {
 	display: flex;
 	justify-content: end;
 }
-
-
 .nav_items li a {
 	color: white;
 	text-decoration: none;
@@ -104,18 +102,14 @@ header {
 	font-size: 0.8em;
 	margin-right: 3em;
 }
-
 .nav_items li a:hover {
 	color: #68dacd;
 }
-
 .watch{
-	width: 1600px;
+	background-image: url('photoshop_file/photoshop/design-assets/bgk-middle.png');
+	background-size: cover;
+	width: 100%;
 	height: 550px;
-}
-
-.w_background{
-	position:absolute;
 }
 
 .w_play{
@@ -123,14 +117,11 @@ header {
 	top: 35%;
 	left: 45%;
 }
-
 .watch p{
-	color: white;
 	position:relative;
 	top: 40%;
 	left: 44%;
 }
-
 .expertise{
 	display:flex;
 	flex-direction:column;
@@ -187,4 +178,101 @@ header {
 	height: 1px;
 	background-color: rgba(65,61,75,255);
 	width: 3%;
+=======
+.w_triangle {
+}
+
+.watch p a{
+	text-decoration: none;
+	font-family: Roboto-Black;
+	font-size:1em;
+	color:rgba(255,255,255,255);
+}
+.t-team-section{
+    background-image: url('photoshop_file/photoshop/design-assets/bgk-header.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.t-title{
+    text-align: center;
+    padding: 3em;
+    
+}
+.t-title h1{
+    font-size: 1.375em;
+    padding: .25em;
+    font-family: 'Playfair Display', serif;
+    color: rgba(255,255,255,255) ;
+}
+.t-title h3{
+    font-size: .8em;
+    padding-bottom: .25em;
+    font-family: 'Playfair Display', serif;
+    color: rgba(255,255,255,255)
+}
+.t-title hr{
+    width: 3%;
+    line-height: .8%;
+    border: 1px solid rgb(81, 0, 128);
+}
+.t-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-cards img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.t-card-1,
+    .t-card-2,
+    .t-card-3,
+    .t-card-4{
+        margin-left: 1em;
+        text-align: center;
+        border: 1px solid white;
+        width: 12em;
+}
+
+.t-cards h1{
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255,255);
+}
+.t-cards p{
+    font-size: 0.87em;
+    padding-bottom: .8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color: rgba(250,250,250,255);
+}
+.t-careers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+}
+.t-careers p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 0.87em;
+    color: rgba(243,243,243,255);
+    margin-bottom: 3em;
+}
+.t-btn{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1em;
+    color:rgba(0,224,208,255);
+    background-color: transparent;
+    border-color: rgba(0,224,208,255);
+    padding: .5em .8em;
+
 }
