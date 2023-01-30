@@ -283,3 +283,56 @@ header {
     padding: .5em .8em;
 
 }
+
+.our-story{
+	display:grid;
+	grid-template-columns: 21% repeat(3,1fr) 21%;
+	column-gap: 0px;
+}
+
+.s_logo{
+	width:70%;
+	grid-column-start: 2;
+	display: flex;
+	justify-content: center;
+
+}
+
+.s_logo > *{
+	align-self: center;
+	
+}
+
+.s_text{
+	padding:0px;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.our-story h2{
+	margin-top: 70px;
+	margin-bottom: 15px;
+	font-family: PlayfairDisplay-Bold;
+	font-size: 1.375em;
+	color: rgba(65,61,75,255);
+	font-weight: 900;
+}
+
+.our-story p{
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: Roboto-Light;
+	font-size: 0.875em;
+	color: rgba(65,61,75,255);
+	margin-left: 0;
+	line-height: 1.6;
+}
+
+.our-story button{
+	margin-top: 15px;
+	margin-bottom: 70px;
+}
