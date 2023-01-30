@@ -47,3 +47,155 @@ table {
 *{
     font-size: 16px;
 }
+
+
+.cc_zara {
+    background: url(/photoshop_file/photoshop/design-assets/png/Zara_Logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_mango {
+    background: url(/photoshop_file/photoshop/design-assets/png/Logo_of_Mango_\(new\).png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_barneys {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Barneys_New_York_Logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_gucci {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Gucci_Logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_calvin {
+    background: url(/photoshop_file/photoshop/design-assets/png/Calvin_klein_logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_nike {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Logo_NIKE.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_converse {
+    background: url(/photoshop_file/photoshop/design-assets/png/Converse_logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_puma {
+    background: url(/photoshop_file/photoshop/design-assets/png/Puma_Logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_levis {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Levi\'s_logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.cc_billa {
+    background: url(/photoshop_file/photoshop/design-assets/png/Billabong.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+
+#f_backimg {
+background-image: url(/photoshop_file/photoshop/design-assets/bgk-footer.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.f_tajam {
+    background: url(/photoshop_file/photoshop/design-assets/png/logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+.f_address {
+    background: url(/photoshop_file/photoshop/design-assets/png/big104.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_tel {
+    background: url(/photoshop_file/photoshop/design-assets/png/phone351.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+}
+
+.f_facebook {
+    background: url(/photoshop_file/photoshop/design-assets/png/facebook.png) 0 0;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_twitter {
+    background: url(/photoshop_file/photoshop/design-assets/png/twitter.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_dribbble {
+    background: url(/photoshop_file/photoshop/design-assets/png/dribbble.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_instagram {
+    background: url(/photoshop_file/photoshop/design-assets/png/instagram.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_google {
+    background: url(/photoshop_file/photoshop/design-assets/png/gplus.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_youtube {
+    background: url(/photoshop_file/photoshop/design-assets/png/youtube.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat; 
+}
+
+.f_socialmedia  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
