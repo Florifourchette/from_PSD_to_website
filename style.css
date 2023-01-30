@@ -46,6 +46,10 @@ table {
 /* CSS starts under here */
 *{
     font-size: 16px;
+    
+}
+body{
+    overflow-x: hidden;
 }
 
 header {
@@ -79,7 +83,6 @@ h1 {
 
 .n_logo object {
 	margin-top: 0.5em;
-
 }
 
 
@@ -171,14 +174,11 @@ h1 {
 
 
 .watch{
-	width: 1600px;
+	background-image: url('photoshop_file/photoshop/design-assets/bgk-middle.png');
+	background-size: cover;
+	width: 100%;
 	height: 550px;
 }
-
-.w_background{
-	position:absolute;
-}
-
 .w_play{
 	position:relative;
 	top: 35%;
@@ -186,8 +186,166 @@ h1 {
 }
 
 .watch p{
-	color: white;
 	position:relative;
 	top: 40%;
 	left: 44%;
+}
+.expertise{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.e_grid_container{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+	width:60%;
+}
+
+.e_grid_item{
+	text-align: center;
+	font-size: 0.8em;
+	border-bottom: solid 1px rgba(65,61,75,255);
+	padding-bottom: 40px;
+	padding-top:70px
+}
+
+.expertise .e_grid_item p{
+	color: rgba(65,61,75,255);
+	font-family: Roboto-Black;
+	font-size: 0.88em;
+}
+
+.e_grid_item h3{
+	color: rgba(65,61,75,255);
+	font-family: Roboto-Light;
+	font-size: 0.88em;
+	font-weight: 900;
+}
+
+.e_grid_item img{
+	margin-bottom: 30px;
+}
+
+.expertise h2{
+	color:rgba(65,61,75,255);
+	font-family: PlayfairDisplay-Bold;
+	font-size: 1.375em;
+	margin-bottom: 20px;
+}
+
+.e_intro{
+	color:rgba(47,45,53,255);
+	font-family: PlayfairDisplay-Regular;
+	font-size: 0.875em;
+	padding-bottom: 20px;
+}
+
+#e_bottom_border{
+	height: 1px;
+	background-color: rgba(65,61,75,255);
+	width: 3%;
+}
+.w_triangle {
+}
+
+.watch p a{
+	text-decoration: none;
+	font-family: Roboto-Black;
+	font-size:1em;
+	color:rgba(255,255,255,255);
+}
+.t-team-section{
+    background-image: url('photoshop_file/photoshop/design-assets/bgk-header.png');
+    object-fit: scale-down;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.t-title{
+    text-align: center;
+    padding: 3em;
+    
+}
+.t-title h2{
+    font-size: 1.375em;
+    padding: .25em;
+    font-family: 'Playfair Display', serif;
+    color: rgba(255,255,255,255) ;
+}
+.t-title h3{
+    font-size: .8em;
+    padding-bottom: .25em;
+    font-family: 'Playfair Display', serif;
+    color: rgba(255,255,255,255)
+}
+.t-title hr{
+    width: 3%;
+    line-height: .8%;
+    border: 1px solid rgb(81, 0, 128);
+}
+.t-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-cards img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.t-card-1,
+    .t-card-2,
+    .t-card-3,
+    .t-card-4{
+        margin-left: 1em;
+        text-align: center;
+        border: 1px solid white;
+        max-width: 13.75em;
+        max-height: 19.25em;
+}
+
+.t-cards h1{
+    padding-top: 1.75em;
+    padding-bottom: 0.25em;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255,255);
+}
+.t-cards p{
+    font-size: 0.87em;
+    padding-bottom: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color: rgba(250,250,250,255);
+    
+}
+.t-careers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 100%;
+    height: 100%;
+}
+.t-careers p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 0.87em;
+    color: rgba(243,243,243,255);
+    margin-bottom: 3em;
+}
+.t-btn{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1em;
+    color:rgba(0,224,208,255);
+    background-color: transparent;
+    border-color: rgba(0,224,208,255);
+    padding: .5em .8em;
 }
