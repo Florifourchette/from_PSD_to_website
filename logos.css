@@ -1,0 +1,127 @@
+.cc_zara {
+    background: url(/photoshop_file/photoshop/design-assets/png/Zara_Logo.png);
+    width: 162px;
+    height: 22px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.cc_mango {
+    background: url(/photoshop_file/photoshop/design-assets/png/Logo_of_Mango_\(new\).png);
+    width: 138px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+.cc_barneys {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Barneys_New_York_Logo.png);
+    width: 154px;
+    height: 41px;
+    background-repeat: no-repeat;
+}
+.cc_gucci {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Gucci_Logo.png);
+    width: 140px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+.cc_calvin {
+    background: url(/photoshop_file/photoshop/design-assets/png/Calvin_klein_logo.png);
+    width: 151px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+.cc_nike {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Logo_NIKE.png);
+    width: 95px;
+    height: 34px;
+    background-repeat: no-repeat;
+}
+.cc_converse {
+    background: url(/photoshop_file/photoshop/design-assets/png/Converse_logo.png);
+    width: 113px;
+    height: 69px;
+    background-repeat: no-repeat;
+}
+.cc_puma {
+    background: url(/photoshop_file/photoshop/design-assets/png/Puma_Logo.png);
+    width: 114px;
+    height: 56px;
+    background-repeat: no-repeat;
+}
+.cc_levis {
+    background: url(/photoshop_file/photoshop/design-assets/png/1280px-Levi\'s_logo.png);
+    width: 109px;
+    height: 53px;
+    background-repeat: no-repeat;
+}
+.cc_billa {
+    background: url(/photoshop_file/photoshop/design-assets/png/Billabong.png);
+    width: 130px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
+/*Footer social media */
+.f_facebook {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_twitter {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_dribbble {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_instagram {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_google {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_youtube {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat; 
+}
+.f_address {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.f_tel {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+#f_backimg {
+    background-image: url(/photoshop_file/photoshop/design-assets/bgk-footer.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.f_tajam {
+    background: url(/photoshop_file/photoshop/design-assets/png/logo.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
