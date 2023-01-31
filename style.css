@@ -298,23 +298,27 @@ h1 {
 	line-height: 1.6;
 }
 
-.watch {
-  background-image: url("photoshop_file/photoshop/design-assets/bgk-middle.png");
-  background-size: cover;
-  width: 100%;
-  height: 550px;
-}
-.w_play {
-  position: relative;
-  top: 35%;
-  left: 45%;
+.watch{
+	background-image: url('photoshop_file/photoshop/design-assets/bgk-middle.png');
+	background-size: cover;
+	width:100%;
+	height: 550px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.watch p {
-  position: relative;
-  top: 40%;
-  left: 44%;
+.w_play{
+	position:relative;
+	width: 6%;
 }
+
+.watch .w-text{
+	position:relative;
+	width:150px;
+}
+
 .expertise {
   display: flex;
   flex-direction: column;
