@@ -396,7 +396,7 @@ h1 {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 5px;
 	width:60%;
-	margin-bottom: 100px;;
+	margin-bottom: 100px;
 }
 
 .e_grid_item{
@@ -590,4 +590,8 @@ h1 {
     border-color: rgba(0,224,208,255);
     padding: .5em .8em;
 
+}
+.t-btn:hover{
+  background-color: rgba(0,224,208,255);
+  color: black;
 }
