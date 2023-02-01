@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;900&display=swap">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
@@ -18,23 +19,29 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="n_logo">
-                <object data="material/logo.svg"></object>
-                <p>tajam</p>
-            </div>
-            <div class="nav_right">
-                <ul class="nav_items">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#expertise">EXPERTISE</a></li>
-                    <li><a href="#teams">TEAMS</a></li>
-                    <li><a href="#works">WORKS</a></li>
-                    <li><a href="#people">PEOPLE SAY</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
+
+      <nav class="navbar">
+        <div class="n_logo">
+          <object data="material/logo.svg"></object>
+          <p>tajam</p>
+        </div>
+        <div class="nav_right">
+          <ul class="nav_items nav-menu">
+            <li class='nav-item'><a href="#home" class='nav-link'>HOME</a></li>
+            <li class='nav-item'><a href="#about" class='nav-link'>ABOUT</a></li>
+            <li class='nav-item'><a href="#expertise" class='nav-link'>EXPERTISE</a></li>
+            <li class='nav-item'><a href="#teams" class='nav-link'>TEAMS</a></li>
+            <li class='nav-item'><a href="#works" class='nav-link'>WORKS</a></li>
+            <li class='nav-item'><a href="#people" class='nav-link'>PEOPLE SAY</a></li>
+            <li class='nav-item'><a href="#contact" class='nav-link'>CONTACT</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
         <div class="n_container">
             <div class="n_text">
                 <h1 class="n_flexItem">We are Awesome Creative Agency</h1>
@@ -65,6 +72,7 @@
             <button class="t-btn">Learn more</button>
         </div>
     </div>
+    
     <section class="watch">
         <embed class="w_play" src="photoshop_file/photoshop/design-assets/svg/play.svg" />
         <p class="w-text"><a href="#">WATCH OUR STORY</a></p>
@@ -279,5 +287,7 @@
                 <div class="f_copyright"> Copyright&copy;2015 - Tajem Creative</div>
             </div>
     </footer>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
+
