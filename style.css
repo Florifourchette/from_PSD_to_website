@@ -563,6 +563,7 @@ h1 {
 .t-btn:hover {
   background-color: rgba(0, 224, 208, 255);
   color: black;
+  cursor: pointer;
 }
 
 /* Contact Section - Aleksandra */
@@ -729,4 +730,13 @@ footer{
   .nav-menu.active {
     left: 0;
   }
+  .t-cards{
+    flex-direction: column;
+  }
+  .t-card-1,
+  .t-card-2,
+  .t-card-3,
+  .t-card-4 {
+    margin-bottom: 1em;
+}
 }
