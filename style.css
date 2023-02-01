@@ -276,7 +276,7 @@ h1 {
   background-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .hamburger {
     display: block;
   }
