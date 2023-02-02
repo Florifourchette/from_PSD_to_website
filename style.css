@@ -660,10 +660,7 @@ font-family: Roboto_Light;
 footer {
   display: block;
   background-image: url("photoshop_file/photoshop/design-assets/bgk-footer.png");
-  object-fit: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
   background-size: 100%;
   width: 100%;
   color: white;
