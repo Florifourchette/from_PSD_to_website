@@ -403,13 +403,13 @@ h1 {
 
 .w_play {
   position: relative;
-  width: 6%;
+  width: 100px;
 }
 
 .watch a {
   text-decoration: none;
   color: white;
-  font-family: Roboto_Black;
+  font-family: Roboto_Black sans-serif;
 }
 
 .watch p {
@@ -705,6 +705,13 @@ footer {
   font-family: Roboto_Light;
 }
 
+.f_paper{
+  width: 70px;
+  background-color: #C5C4C9;
+  opacity: 0.5;
+  text-align: center;
+}
+
 .f_address img {
   margin: 10px;
 }
@@ -751,6 +758,7 @@ font-family: Roboto_Light;
     margin: 1em;
     color: #03ded0;
   }
+
   .f_container_logo h2 {
     color: #03ded0;
     font-size: 30px;
