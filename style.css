@@ -669,6 +669,7 @@ h1 {
   font-family: HammersmithOne-Regular, sans-serif;
   font-weight: lighter;
   margin-left: 0.7em;
+  cursor: pointer;
 }
 .cc_button:hover {
   color: #000000;
@@ -890,7 +891,7 @@ footer {
   width: 4.3em;
 }
 
-::placeholder {
+.f_input::placeholder {
   color: #ffffff;
   opacity: 0.75;
   text-align: center;
