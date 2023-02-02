@@ -606,7 +606,7 @@ h1 {
 
 /* Contact Section - Aleksandra */
 /* Contact Section - Aleksandra */
-.cc_center{
+.cc_center {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
@@ -619,29 +619,28 @@ h1 {
   grid-template-rows: 1fr 2fr;
   height: 690px;
   margin-inline: 5em;
-
 }
-.cc_news{
+.cc_news {
   display: flex;
   flex-direction: column;
   margin-right: 100px;
   grid-column-start: 1;
   grid-column-end: 2;
-  width:80%;
+  width: 80%;
 }
 
-.cc_news_item{
-margin:12.5px;
-padding:16px;
-opacity: 0.8;
+.cc_news_item {
+  margin: 12.5px;
+  padding: 16px;
+  opacity: 0.8;
 }
 
-.cc_news_item::placeholder{
+.cc_news_item::placeholder {
   font-family: Roboto_Light;
   color: black;
-  }
+}
 
-#cc_news_item1{
+#cc_news_item1 {
   margin: 1em;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -656,7 +655,7 @@ opacity: 0.8;
   margin-top: 100px;
 }
 
-.cc_button{
+.cc_button {
   border: 1.5px solid #68dacd;
   width: 120px;
   height: 40px;
@@ -669,11 +668,11 @@ opacity: 0.8;
   margin-left: 0.5em;
 }
 .cc_button:hover {
-    color: #000000;
-    background-color: #03ded0;
+  color: #000000;
+  background-color: #03ded0;
 }
 
-.cc_item1{
+.cc_item1 {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -686,22 +685,20 @@ opacity: 0.8;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 2.18em;
-  margin-top:100px
-
+  margin-top: 100px;
 }
 
-.cc_brands{
-  display:flex;
+.cc_brands {
+  display: flex;
   flex-direction: column;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   height: 350px;
-  width:380px;
+  width: 380px;
 }
 
-.cc_item{
-  margin:12.5px;
+.cc_item {
+  margin: 12.5px;
 }
-
 
 /* .cc-column-2{
  grid-column-start: 2;
@@ -711,13 +708,8 @@ opacity: 0.8;
  border: 1px solid red;
 } */
 
-
 .cc_item1 {
-  
-  
-} 
-
-
+}
 
 /*cc div 1*/
 
@@ -750,11 +742,7 @@ opacity: 0.8;
 /*  */
 /*cc div 2*/
 
-
-
-
 /*cc div 1*/
-
 
 /* .cc_news_item {
   font-family:PlayfairDisplay-Bold;
@@ -785,8 +773,6 @@ opacity: 0.8;
 } */
 /*cc div 2*/
 
-
-
 /* .cc_item {
 }
 .cc_item1 {
@@ -810,14 +796,13 @@ footer {
 
 .f_container {
   display: flex;
-
   width: 60%;
   justify-content: space-between;
 }
+
 .f_first_column {
   display: flex;
   flex-direction: column;
-
   width: 30%;
 }
 .f_container_logo {
@@ -925,16 +910,11 @@ footer {
   justify-content: space-between;
   margin-top: 3em;
   font-family: Roboto_Regular;
-
   width: 60%;
 }
+
 .f_links ul {
   display: inline-flex;
-}
-.f_links ul li a {
-  margin: 0.5em;
-  color: white;
-  text-decoration: none;
 }
 
 .f_socialmedia a {
@@ -943,11 +923,11 @@ footer {
 }
 
 .f_links ul li a {
-  margin: 0.5em;
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
+  margin-right: 0.5em;
 }
 
 .f_copyright {
