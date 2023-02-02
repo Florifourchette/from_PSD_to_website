@@ -403,13 +403,13 @@ h1 {
 
 .w_play {
   position: relative;
-  width: 6%;
+  width: 100px;
 }
 
 .watch a {
   text-decoration: none;
   color: white;
-  font-family: Roboto_Black;
+  font-family: Roboto_Black sans-serif;
 }
 
 .watch p {
@@ -449,8 +449,9 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
-  width: 60%;
+  width: 50%;
   margin-bottom: 100px;
+  margin-top: 3em;
 }
 
 .e_grid_item {
@@ -463,17 +464,29 @@ h1 {
   padding-bottom: 40px;
   padding-top: 70px;
 }
-
+.e_grid_center{
+  border-left: solid 1px #EBEBEB;
+  border-right: solid 1px #EBEBEB;
+}
+#e-bot-outside-item{
+  border-top: solid 1px #EBEBEB;
+}
+#e-center-item{
+  border-top: solid 1px #EBEBEB;
+}
 .expertise .e_grid_item p {
   color: rgba(65, 61, 75, 255);
-  font-family: Roboto-Black;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.88em;
   line-height: 1.6;
+  font-weight: 300;
+  padding-inline: 2em;
+  opacity: 80%;
 }
 
 .e_grid_item h3 {
   color: rgba(65, 61, 75, 255);
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;;
   font-size: 0.88em;
   font-weight: 900;
   margin-bottom: 30px;
@@ -512,6 +525,7 @@ h1 {
   padding: 0.25em;
   font-family: PlayfairDisplay-Bold;
   color: rgba(255, 255, 255, 255);
+  padding-bottom: .8em;
 }
 .t-title h3 {
   font-size: 0.8em;
@@ -520,9 +534,9 @@ h1 {
   color: rgba(255, 255, 255, 255);
 }
 .t-title hr {
-  width: 3%;
-  line-height: 0.8%;
-  border: 1px solid rgb(81, 0, 128);
+  width: 5%;
+  margin-top: 1em;
+  border: 1px solid rgba(128, 113, 133, 0.696);
 }
 .t-cards {
   display: flex;
@@ -652,11 +666,8 @@ h1 {
 footer {
   display: block;
   background-image: url("photoshop_file/photoshop/design-assets/bgk-footer.png");
-  object-fit: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100% 100%;
+  background-size: 100%;
   width: 100%;
   color: white;
 }
@@ -703,6 +714,13 @@ footer {
 .f_address {
   display: flex;
   font-family: Roboto_Light;
+}
+
+.f_paper{
+  width: 70px;
+  background-color: #C5C4C9;
+  opacity: 0.5;
+  text-align: center;
 }
 
 .f_address img {
