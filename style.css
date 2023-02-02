@@ -449,8 +449,9 @@ margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
-  width: 60%;
+  width: 50%;
   margin-bottom: 100px;
+  margin-top: 3em;
 }
 
 .e_grid_item {
@@ -463,17 +464,23 @@ margin-top: 20px;
   padding-bottom: 40px;
   padding-top: 70px;
 }
-
+#e-center-item{
+  border-left: solid 1px #EBEBEB;
+  border-right: solid 1px #EBEBEB;
+}
 .expertise .e_grid_item p {
   color: rgba(65, 61, 75, 255);
-  font-family: Roboto-Black;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.88em;
   line-height: 1.6;
+  font-weight: 300;
+  padding-inline: 2em;
+  opacity: 80%;
 }
 
 .e_grid_item h3 {
   color: rgba(65, 61, 75, 255);
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;;
   font-size: 0.88em;
   font-weight: 900;
   margin-bottom: 30px;
