@@ -356,8 +356,8 @@ h1 {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Roboto-Light;
-  font-size: 0.875em;
+  font-family: Roboto-Light, sans-serif;
+  opacity: 0.8;
   color: rgba(65, 61, 75, 255);
   margin-left: 0;
   line-height: 1.6;
@@ -464,19 +464,19 @@ h1 {
   padding-bottom: 40px;
   padding-top: 70px;
 }
-.e_grid_center{
-  border-left: solid 1px #EBEBEB;
-  border-right: solid 1px #EBEBEB;
+.e_grid_center {
+  border-left: solid 1px #ebebeb;
+  border-right: solid 1px #ebebeb;
 }
-#e-bot-outside-item{
-  border-top: solid 1px #EBEBEB;
+#e-bot-outside-item {
+  border-top: solid 1px #ebebeb;
 }
-#e-center-item{
-  border-top: solid 1px #EBEBEB;
+#e-center-item {
+  border-top: solid 1px #ebebeb;
 }
 .expertise .e_grid_item p {
   color: rgba(65, 61, 75, 255);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.88em;
   line-height: 1.6;
   font-weight: 300;
@@ -486,7 +486,7 @@ h1 {
 
 .e_grid_item h3 {
   color: rgba(65, 61, 75, 255);
-  font-family: 'Roboto', sans-serif;;
+  font-family: "Roboto", sans-serif;
   font-size: 0.88em;
   font-weight: 900;
   margin-bottom: 30px;
@@ -525,7 +525,7 @@ h1 {
   padding: 0.25em;
   font-family: PlayfairDisplay-Bold;
   color: rgba(255, 255, 255, 255);
-  padding-bottom: .8em;
+  padding-bottom: 0.8em;
 }
 .t-title h3 {
   font-size: 0.8em;
@@ -664,51 +664,75 @@ h1 {
 /* Footer Section - Aleksandra */
 
 footer {
-  display: block;
   background-image: url("photoshop_file/photoshop/design-assets/bgk-footer.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
   width: 100%;
   color: white;
+  height: 397px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .f_container {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 1em;
+
+  width: 60%;
+  justify-content: space-between;
 }
 .f_first_column {
   display: flex;
   flex-direction: column;
-  width: 33%;
+
+  width: 30%;
 }
 .f_container_logo {
   display: flex;
   align-items: center;
   font-family: Roboto_Thin;
+  font-size: 0.8em;
 }
 .f_container_logo img {
-  width: 60px;
-  height: 60px;
-  margin: 1em;
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+
+  color: #03ded0;
 }
 
 .f_ourstudio {
   flex-direction: column;
-  align-items: center;
-  padding: 1em;
-  align-items: center;
-  text-align: center;
-  max-width: 33%;
-}
-.f_ourstudio a {
-  color: white;
-  text-decoration: none;
+  width: 30%;
 }
 
 .f_ourstudio h3 {
   font-family: Roboto_Black;
+}
+
+.f_ourstudio h3 {
+  font-size: 1em;
+  font-family: "Roboto_Black";
+  font-weight: 400;
+  padding: 1em 0 2em 0.7em;
+}
+
+.f_ourstudio a {
+  text-decoration: none;
+}
+
+.f_container_logo h2 {
+  color: #03ded0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.f_logo_p {
+  font-size: 1em;
+  padding-top: 1.5em;
+  padding-right: 0.5em;
+  line-height: 26px;
+  font-family: Roboto_Light;
 }
 
 .f_address {
@@ -716,15 +740,29 @@ footer {
   font-family: Roboto_Light;
 }
 
-.f_paper{
-  width: 70px;
-  background-color: #C5C4C9;
-  opacity: 0.5;
-  text-align: center;
-}
-
 .f_address img {
   margin: 10px;
+  padding: 0 0.3em 3em 0;
+}
+
+.f_address p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  padding: 0.3em 0 0 0;
+}
+
+.f_tel a {
+  font-size: 1em;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0em 0 0 0.8em;
+}
+
+.f_tel img {
+  padding: 0em 0 0 0.5em;
 }
 
 .f_tel {
@@ -734,25 +772,28 @@ footer {
 .f_newsletter {
   display: flex;
   flex-direction: column;
+  width: 25%;
+  margin-left: 1em;
 }
 
 .f_newsletter h3 {
-  font-family: Roboto_Black;
-}
-
-.f_input {
-  font-family: Roboto_Light;
+  font-size: 1em;
+  font-family: "Roboto_Black";
+  font-weight: 400;
+  padding: 1em 0 2em 0.25em;
 }
 
 .f_socialmedia ul {
   display: inline-flex;
-  margin-top: 0.5em;
+  margin-top: 0.7em;
 }
 .f_bottom {
   display: flex;
   justify-content: space-between;
-  margin: 1em;
+  margin-top: 3em;
   font-family: Roboto_Regular;
+
+  width: 60%;
 }
 .f_links ul {
   display: inline-flex;
@@ -763,93 +804,9 @@ footer {
   text-decoration: none;
 }
 
-.f_container_logo img {
-  width: 60px;
-  height: 60px;
-  margin: 1em;
-  color: #03ded0;
-}
-.f_container_logo h2 {
-  color: #03ded0;
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.f_logo p {
-  font-size: 14px;
-  font-weight: 300;
-  padding-left: 1em;
-  letter-spacing: 0.35px;
-  line-height: 26px;
-  font-family: Roboto_Light;
-}
-
-.f_ourstudio {
-  flex-direction: column;
-  align-items: center;
-  align-items: center;
-  text-align: left;
-  max-width: 25%;
-}
-
-.f_ourstudio h3 {
-  font-size: 15px;
-  font-family: "Roboto_Black";
-  font-size: 15px;
-  font-weight: 400;
-  padding: 1em 0 2em 0.7em;
-}
-
-.f_ourstudio a {
-  text-decoration: none;
-}
-
-.f_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 1em;
-}
-
-.f_first_column {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  padding: 4em 0 5em 3em;
-}
-
-.f_address img {
-  margin: 10px;
-  padding: 0 0.3em 3em 0;
-}
-
-.f_address p {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 26px;
-  letter-spacing: 0.35px;
-  padding: 0.3em 0 0 0;
-}
-
-.f_tel a {
-  font-size: 14px;
-  font-weight: 300;
-  color: #ffffff;
-  padding: 1em 0 2em 1em;
-}
-
-.f_tel img {
-  padding: 1em 0 0 0.5em;
-}
-
-.f_socialmedia ul {
-  display: inline-flex;
-  padding-top: 1.8em;
-}
-
 .f_socialmedia a {
   margin: 0 0.2em;
+  padding-top: 1em;
 }
 
 .f_links ul li a {
@@ -865,22 +822,43 @@ footer {
   font-weight: 400;
 }
 
-.f_newsletter h3 {
-  padding: 0 0 2em 0;
+.f_newsletter_container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.f_newsletter_container embed {
+  height: 35px;
+  width: 35px;
+  margin-left: 1em;
 }
 
 .f_input {
   background: none;
-  height: 3em;
-  width: 16em;
+  height: 2.5em;
+  width: 14em;
   border: 1px solid #ffffff;
   letter-spacing: 0.7px;
   opacity: 0.5;
+  margin-left: 0.25em;
+}
+
+.f_plane {
+  opacity: 0.3;
+  background-color: #ffffff;
+}
+
+.f_newsletter_container embed {
+  height: 2.5em;
+  width: 4.3em;
 }
 
 ::placeholder {
   color: #ffffff;
   opacity: 0.75;
+  text-align: center;
+  font-family: Roboto_Light;
+  font-size: 1em;
 }
 
 /* Media Queries */
