@@ -798,8 +798,9 @@ font-family: Roboto_Light;
     flex-direction: column;
     width: 30%;
     padding: 4em 0 5em 3em;
+  }
     
-      .f_address img{
+  .f_address img{
     margin: 10px;
     padding: 0 0.3em 3em 0;
   }
@@ -814,7 +815,6 @@ font-family: Roboto_Light;
   }
   
   .f_tel a {
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #ffffff;
@@ -838,7 +838,6 @@ font-family: Roboto_Light;
     margin: 0.5em;
     color: #ffffff;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
   }
@@ -914,7 +913,7 @@ font-family: Roboto_Light;
   
   .t-cards {
     flex-direction: column;
-    font-family: "Roboto - Black";
+    font-family: "Roboto_Black";
     padding: 5em 6em 3em 1em;
   }
  
