@@ -512,6 +512,7 @@ margin-top: 20px;
   padding: 0.25em;
   font-family: PlayfairDisplay-Bold;
   color: rgba(255, 255, 255, 255);
+  padding-bottom: .8em;
 }
 .t-title h3 {
   font-size: 0.8em;
@@ -520,9 +521,9 @@ margin-top: 20px;
   color: rgba(255, 255, 255, 255);
 }
 .t-title hr {
-  width: 3%;
-  line-height: 0.8%;
-  border: 1px solid rgb(81, 0, 128);
+  width: 5%;
+  margin-top: 1em;
+  border: 1px solid rgba(128, 113, 133, 0.696);
 }
 .t-cards {
   display: flex;
