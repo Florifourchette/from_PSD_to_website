@@ -322,8 +322,12 @@ h1 {
   font-size: 0.875em;
   color: rgba(65, 61, 75, 255);
   margin-left: 0;
-  line-height: 1.6;
-}
+  line-height: 1.6;}
+
+  .our-story button {
+    margin-top: 15px;
+    margin-bottom: 70px;
+  }
 
 /* Watch Section - Flo */
 .watch {
@@ -347,48 +351,6 @@ h1 {
   width: 150px;
 }
 
-.expertise {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.e_grid_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
-  width: 60%;
-}
-
-.e_grid_item {
-  text-align: center;
-  font-size: 0.8em;
-  border-bottom: solid 1px rgba(65, 61, 75, 255);
-  padding-bottom: 40px;
-  padding-top: 70px;
-}
-
-.expertise .e_grid_item p {
-  color: rgba(65, 61, 75, 255);
-  font-family: Roboto-Black;
-  font-size: 0.88em;
-}
-
-.e_grid_item h3 {
-  color: rgba(65, 61, 75, 255);
-  font-family: Roboto-Light;
-  font-size: 0.88em;
-  font-weight: 900;
-}
-
-.e_grid_item img {
-  margin-bottom: 30px;
-}
-.our-story button {
-  margin-top: 15px;
-  margin-bottom: 70px;
-}
-
 .watch {
   background-image: url("photoshop_file/photoshop/design-assets/bgk-middle.png");
   background-size: cover;
@@ -405,6 +367,11 @@ h1 {
   width: 6%;
 }
 
+.watch a {
+  text-decoration: none;
+  color: white;
+}
+
 .watch p {
   margin-top: 35px;
   margin-left: 20px;
@@ -417,6 +384,25 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
+}
+
+#e_bottom_border{
+  border: #C5C4C9 1px solid;
+margin-top: 20px;
+  width: 50px;
+}
+
+#e-title {
+  color: #403E4B;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.375em;
+}
+
+.e_intro{
+  color: #77777C;
+  font-family: "Playfair Display", serif;
+  font-size: 0.875em;
 }
 
 .e_grid_container {
@@ -433,7 +419,7 @@ h1 {
   align-items: center;
   text-align: center;
   font-size: 0.8em;
-  border-bottom: solid 1px rgba(65, 61, 75, 255);
+  border-bottom: solid 1px #EBEBEB;
   padding-bottom: 40px;
   padding-top: 70px;
 }
