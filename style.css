@@ -460,13 +460,18 @@ margin-top: 20px;
   align-items: center;
   text-align: center;
   font-size: 0.8em;
-  border-bottom: solid 1px #EBEBEB;
   padding-bottom: 40px;
   padding-top: 70px;
 }
-#e-center-item{
+.e_grid_center{
   border-left: solid 1px #EBEBEB;
   border-right: solid 1px #EBEBEB;
+}
+#e-bot-outside-item{
+  border-top: solid 1px #EBEBEB;
+}
+#e-center-item{
+  border-top: solid 1px #EBEBEB;
 }
 .expertise .e_grid_item p {
   color: rgba(65, 61, 75, 255);
