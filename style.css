@@ -960,15 +960,47 @@ footer {
 
   .our-story {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 1em;
     padding: 0 7em 3em 4.5em;
     flex-direction: column;
-    min-width: 30%;
-    margin-inline: 50%;
     align-items: center;
     margin-top: 1em;
   }
+
+  .expertise{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 50px;
+  }
+
+  .e_intro_text {
+    width: 70%;
+    text-align: center;
+  }
+
+  .e_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+width: 100%;
+  }
+
+.e_grid_item{
+  width:100%;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+    border-bottom: solid 1px #ebebeb;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
 
   .s_logo embed {
     width: 5em;
