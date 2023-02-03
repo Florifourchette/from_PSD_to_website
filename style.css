@@ -426,6 +426,10 @@ h1 {
   margin-top: 70px;
 }
 
+.e_intro_text{
+  text-align: center;
+}
+
 #e_bottom_border {
   border: #c5c4c9 1px solid;
   margin-top: 20px;
@@ -901,6 +905,9 @@ footer {
 
 /* Media Queries */
 @media (max-width: 850px) {
+  .body{
+    overflow-x: hidden;
+  }
   .hamburger {
     display: block;
     background-image: url("photoshop_file/photoshop/design-assets/bgk-footer.png");
@@ -982,12 +989,12 @@ footer {
 
   .e_grid_container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5px;
     margin:auto;
     margin-top: 15px;
     margin-bottom: 50px;
-width: 100%;
+width: 80%;
   }
 
 .e_grid_item{
@@ -1026,5 +1033,76 @@ width: 100%;
   }
   .cc_clients_conteiner{
     width: 100%;
+    margin-bottom: 100px
   }
+
+  
+.f_container{
+  background-image: url("photoshop_file/photoshop/design-assets/bgk-footer.png");
+  width: 100%;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1000px;
+}
+
+.f_first_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.f_ourstudio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.f_newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+footer{
+  height:800px;
+}
+
+.f_container_logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.f_logo_p {
+  font-size: 1em;
+  padding-top: 1.5em;
+  padding-right: 0.5em;
+  line-height: 26px;
+  font-family: Roboto_Light;
+  width: 80%;
+  margin:auto;
+}
+
+.f_bottom{
+  margin:0px;
+}
+
+.f_copyright{
+    font-size: 14px;
+    font-weight: 400;
+}
+
 }
