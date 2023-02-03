@@ -866,13 +866,18 @@ footer {
 
 .f_newsletter_container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
+  width:290px;
 }
 
 .f_newsletter_container embed {
-  height: 35px;
-  width: 35px;
-  margin-left: 1em;
+  padding-top:10px;
+  padding-left: 5px;
+  width: 70px;
+  height:30px;
+  margin-left: 10px;;
 }
 
 .f_input {
@@ -888,11 +893,6 @@ footer {
 .f_plane {
   opacity: 0.3;
   background-color: #ffffff;
-}
-
-.f_newsletter_container embed {
-  height: 2.5em;
-  width: 4.3em;
 }
 
 .f_input::placeholder {
