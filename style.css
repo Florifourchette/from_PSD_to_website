@@ -950,7 +950,9 @@ footer {
   .t-cards {
     flex-direction: column;
     font-family: "Roboto_Black";
-    padding: 5em 6em 3em 1em;
+    padding: 1em 1em 1em 1em;
+    align-items: center;
+
   }
 
   .t-card-1,
@@ -958,6 +960,10 @@ footer {
   .t-card-3,
   .t-card-4 {
     margin-bottom: 1em;
+  }
+  .t-careers {
+    padding-top: 0;
+
   }
 
   .our-story {
